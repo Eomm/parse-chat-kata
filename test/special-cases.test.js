@@ -4,6 +4,18 @@ const { test } = require('tap')
 
 const parseChat = require('../lib/parser')
 
+test('empty string', t => {
+  t.plan(1)
+  const parsed = parseChat('')
+  t.deepEqual(parsed, [])
+})
+
+test('null input', t => {
+  t.plan(1)
+  const parsed = parseChat(null)
+  t.deepEqual(parsed, [])
+})
+
 test('name surname', t => {
   t.plan(1)
   const txt = `14:24:32 Customer : Lorem ipsum dolor sit amet, consectetur adipiscing elit.
