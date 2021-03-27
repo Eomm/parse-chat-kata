@@ -36,6 +36,11 @@ The input string must be formatted as follow:
 <hh:mm:ss> <mention_name [mention_surname]> : <sentence>\n
 ```
 
+### TODOs
+
+- [ ] Support UNICODE Chars on names (for cool Nicknames 🤖)
+- [ ] Input validation
+
 ## Contributing
 
 To contribute to this project, or just to play with it locally just run:
