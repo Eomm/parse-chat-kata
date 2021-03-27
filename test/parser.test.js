@@ -121,7 +121,7 @@ test('date splitting', t => {
   }])
 })
 
-test('missing colon after the names', t => {
+test('missing colon after the names', { skip: true }, t => {
   t.plan(1)
   const txt = '14:24:32 Customer Lorem ipsum dolor sit amet, consectetur adipiscing elit.14:26:15 Agent I received it at 12:24:48, ut blandit lectus.'
   const parsed = parseChat(txt)
