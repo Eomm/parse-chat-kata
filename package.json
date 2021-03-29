@@ -1,0 +1,31 @@
+{
+  "name": "parse-chat-kata",
+  "version": "1.0.0",
+  "description": "See [ASSIGNMENT.md](./ASSIGNMENT.md)",
+  "main": "lib/parser.js",
+  "scripts": {
+    "lint": "standard",
+    "lint:fix": "standard --fix",
+    "test": "npm run lint && npm run test:unit",
+    "test:unit": "tap --100 test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Eomm/parse-chat-kata.git"
+  },
+  "keywords": [],
+  "author": "Manuel Spigolon <behemoth89@gmail.com> (https://github.com/Eomm)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Eomm/parse-chat-kata/issues"
+  },
+  "homepage": "https://github.com/Eomm/parse-chat-kata#readme",
+  "devDependencies": {
+    "fastbench": "^1.0.1",
+    "standard": "^16.0.3",
+    "tap": "^14.11.0"
+  },
+  "dependencies": {
+    "string.prototype.matchall": "^4.0.4"
+  }
+}
