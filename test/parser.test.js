@@ -2,7 +2,7 @@
 
 const { test } = require('tap')
 
-const parseChat = require('../lib/parser')
+const { parseChat } = require('../lib/parser')
 
 test('single sentence', t => {
   t.plan(1)
