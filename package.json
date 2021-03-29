@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/Eomm/parse-chat-kata#readme",
   "devDependencies": {
+    "fastbench": "^1.0.1",
     "standard": "^16.0.3",
     "tap": "^14.11.0"
   }
